@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnA:(id)sender {
+		[self performSegueWithIdentifier:@"keA" sender:self];
+}
+
+
+
+- (IBAction)btnB:(id)sender {
+		[self performSegueWithIdentifier:@"keA" sender:self];
+}
 @end

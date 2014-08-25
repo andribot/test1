@@ -21,6 +21,7 @@
 		8D0BD0AF19A345F400D4D6BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0BD09119A345F400D4D6BE /* UIKit.framework */; };
 		8D0BD0B719A345F400D4D6BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BD0B519A345F400D4D6BE /* InfoPlist.strings */; };
 		8D0BD0B919A345F400D4D6BE /* cobamac1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BD0B819A345F400D4D6BE /* cobamac1Tests.m */; };
+		8D0BD10619A365A400D4D6BE /* halamanaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BD10519A365A400D4D6BE /* halamanaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8D0BD0B419A345F400D4D6BE /* cobamac1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cobamac1Tests-Info.plist"; sourceTree = "<group>"; };
 		8D0BD0B619A345F400D4D6BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D0BD0B819A345F400D4D6BE /* cobamac1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cobamac1Tests.m; sourceTree = "<group>"; };
+		8D0BD10419A365A400D4D6BE /* halamanaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = halamanaViewController.h; path = regist/halamanaViewController.h; sourceTree = "<group>"; };
+		8D0BD10519A365A400D4D6BE /* halamanaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = halamanaViewController.m; path = regist/halamanaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		8D0BD09319A345F400D4D6BE /* cobamac1 */ = {
 			isa = PBXGroup;
 			children = (
+				8D0BD10319A3655800D4D6BE /* regist */,
 				8D0BD09C19A345F400D4D6BE /* AppDelegate.h */,
 				8D0BD09D19A345F400D4D6BE /* AppDelegate.m */,
 				8D0BD09F19A345F400D4D6BE /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				8D0BD0B519A345F400D4D6BE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D0BD10319A3655800D4D6BE /* regist */ = {
+			isa = PBXGroup;
+			children = (
+				8D0BD10419A365A400D4D6BE /* halamanaViewController.h */,
+				8D0BD10519A365A400D4D6BE /* halamanaViewController.m */,
+			);
+			name = regist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0BD0A419A345F400D4D6BE /* ViewController.m in Sources */,
+				8D0BD10619A365A400D4D6BE /* halamanaViewController.m in Sources */,
 				8D0BD09E19A345F400D4D6BE /* AppDelegate.m in Sources */,
 				8D0BD09A19A345F400D4D6BE /* main.m in Sources */,
 			);
